@@ -1,0 +1,8 @@
+{
+  "name": "LOJA: HLT Materiais Elétricos SaaS Empresarial + Dashboard administrativo + Hub Loja virtual ",
+  "description": "Landing page de alta conversão para loja de materiais elétricos",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

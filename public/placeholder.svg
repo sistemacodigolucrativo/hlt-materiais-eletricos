@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap');
+      .bg { fill: #ffffff; }
+      .bg-icon { fill: #f8f9fa; stroke: #f1f5f9; stroke-width: 20; }
+      .brand-blue { fill: #0055ff; }
+      .brand-dark { fill: #0f172a; }
+      .brand-gray { fill: #64748b; }
+      .text-logo { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 32px; fill: #0f172a; }
+      .text-title-1 { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 80px; fill: #0f172a; text-anchor: middle; letter-spacing: -2px; }
+      .text-title-2 { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 80px; fill: #0055ff; text-anchor: middle; letter-spacing: -2px; }
+      .text-subtitle { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 24px; fill: #64748b; text-anchor: middle; letter-spacing: 2px; }
+      .pill-text { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; letter-spacing: 1px; }
+    </style>
+  </defs>
+  
+  <rect width="800" height="800" class="bg"/>
+  
+  <!-- Faint Background Thunderbolt -->
+  <path d="M 500 100 L 250 450 L 400 450 L 300 800 L 650 350 L 450 350 Z" class="bg-icon" opacity="0.5"/>
+  
+  <!-- Header Logo -->
+  <g transform="translate(230, 50)">
+    <rect width="45" height="45" rx="12" class="brand-blue"/>
+    <path d="M 28 12 L 15 26 L 22 26 L 17 35 L 32 20 L 25 20 Z" fill="#ffffff"/>
+    <text x="60" y="32" class="text-logo">HLT <tspan font-weight="700" fill="#1e293b">Materiais Elétricos</tspan></text>
+  </g>
+  
+  <!-- Big Camera Icon -->
+  <g transform="translate(270, 180)">
+    <!-- Camera Body -->
+    <path d="M 50 30 L 70 0 L 190 0 L 210 30 L 240 30 C 251 30 260 39 260 50 L 260 180 C 260 191 251 200 240 200 L 20 200 C 9 200 0 191 0 180 L 0 50 C 0 39 9 30 20 30 Z" fill="none" stroke="#0055ff" stroke-width="16" stroke-linejoin="round"/>
+    <!-- Camera Lens Circle -->
+    <circle cx="130" cy="115" r="60" fill="none" stroke="#0055ff" stroke-width="16"/>
+    <!-- Thunderbolt in Lens -->
+    <path d="M 140 70 L 105 125 L 130 125 L 115 160 L 165 105 L 135 105 Z" class="brand-blue"/>
+    <!-- Flash/Sensor Dot -->
+    <circle cx="220" cy="70" r="10" fill="none" stroke="#0055ff" stroke-width="8"/>
+  </g>
+  
+  <!-- Title Texts -->
+  <text x="400" y="480" class="text-title-1">IMAGEM</text>
+  <text x="400" y="560" class="text-title-2">INDISPONÍVEL</text>
+  
+  <!-- Divider with Thunderbolt -->
+  <g transform="translate(210, 600)">
+    <line x1="0" y1="10" x2="160" y2="10" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M 195 0 L 175 15 L 185 15 L 175 25 L 205 10 L 190 10 Z" class="brand-blue"/>
+    <line x1="220" y1="10" x2="380" y2="10" stroke="#cbd5e1" stroke-width="3"/>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="400" y="650" class="text-subtitle">FOTO NÃO DISPONÍVEL</text>
+  
+  <!-- Bottom Pill -->
+  <g transform="translate(210, 710)">
+    <rect width="380" height="40" rx="20" class="brand-blue"/>
+    <path d="M 30 12 L 20 22 L 25 22 L 20 30 L 35 18 L 28 18 Z" fill="#ffffff"/>
+    <text x="50" y="27" class="pill-text">MATERIAIS ELÉTRICOS DE QUALIDADE</text>
+  </g>
+</svg>
