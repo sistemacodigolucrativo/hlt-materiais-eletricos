@@ -25,7 +25,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/preview/hlt-materiais-eletricos">
           <Routes>
             <Route path="/" element={<RootLayout />}>
               <Route index element={<Home />} />
