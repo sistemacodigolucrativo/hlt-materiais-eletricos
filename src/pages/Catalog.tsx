@@ -8,7 +8,7 @@ import { FadeInSection } from '@/components/ui/FadeInSection';
 
 const fallbackByCategory: Record<string, string> = {
   '1': 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=900&q=82&auto=format&fit=crop',
-  '2': 'https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=900&q=82&auto=format&fit=crop',
+  '2': 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=82&auto=format&fit=crop',
   '3': 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=900&q=82&auto=format&fit=crop',
   '4': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=82&auto=format&fit=crop',
   '5': 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=900&q=82&auto=format&fit=crop',

@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils';
 
 const categoryVisuals: Record<string, { icon: React.ElementType; image: string; tone: string }> = {
   '1': { icon: Zap, image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=900&q=82&auto=format&fit=crop', tone: 'from-blue-950/90' },
-  '2': { icon: Lightbulb, image: 'https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=900&q=82&auto=format&fit=crop', tone: 'from-amber-950/90' },
+  '2': { icon: Lightbulb, image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=82&auto=format&fit=crop', tone: 'from-amber-950/90' },
   '3': { icon: Wrench, image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=900&q=82&auto=format&fit=crop', tone: 'from-slate-950/90' },
   '4': { icon: Cable, image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=82&auto=format&fit=crop', tone: 'from-cyan-950/90' },
   '5': { icon: PackageCheck, image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=900&q=82&auto=format&fit=crop', tone: 'from-indigo-950/90' },
