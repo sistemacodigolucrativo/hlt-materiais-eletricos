@@ -58,7 +58,7 @@ export const Header = () => {
             <div className="bg-[var(--brand-primary)] p-1.5 rounded-lg shadow-sm">
               <Zap className="h-6 w-6 text-white fill-white" />
             </div>
-            <span className="font-display font-bold text-3xl sm:text-4xl tracking-tight text-[var(--text-primary)]">HLT <span className="text-[var(--text-secondary)] font-medium">Materiais Elétricos</span></span>
+            <span className="font-display text-2xl font-bold tracking-tight text-[var(--text-primary)] sm:text-3xl">HLT <span className="font-sans text-sm font-semibold text-[var(--text-secondary)] sm:text-base">Materiais Elétricos</span></span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -77,7 +77,7 @@ export const Header = () => {
             >
               {theme === 'dark' ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
             </button>
-            <Link to="/painel" className="text-[var(--text-muted)] hover:bg-[var(--bg-page)] hover:text-[var(--brand-primary)] p-2 rounded-lg transition-colors hidden sm:block" title="Painel Administrativo">
+            <Link to="/painel" className="hidden rounded-lg p-2 text-[var(--text-muted)] transition-colors hover:bg-[var(--bg-page)] hover:text-[var(--brand-primary)] sm:block" title="Painel Administrativo">
               <User className="h-6 w-6" />
             </Link>
             <Link to="/carrinho" onClick={scrollToTop} className="relative text-[var(--text-muted)] hover:bg-[var(--bg-page)] cursor-pointer group p-2 rounded-lg hover:text-[var(--brand-primary)] transition-colors">
@@ -93,7 +93,7 @@ export const Header = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:inline-flex bg-[var(--brand-primary)] hover:bg-[var(--brand-primary-hover)] text-white font-bold py-2.5 px-6 rounded-xl transition-all active:scale-95 items-center shadow-md"
+              className="hidden items-center rounded-xl bg-[var(--brand-primary)] px-5 py-2.5 font-bold text-white shadow-md transition-all hover:bg-[var(--brand-primary-hover)] active:scale-95 md:inline-flex"
             >
               Pedir Orçamento
             </a>
@@ -131,4 +131,3 @@ export const Header = () => {
     </>
   );
 };
-
